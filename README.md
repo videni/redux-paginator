@@ -166,13 +166,12 @@ export default combineReducers({
 And we're **done** ! There is nothing else to do in the reducer part.
 
 
-### Add the `paginatorMiddleware` or fork the `requestPageWatcher` saga to enable `redux-paginator`
+### Add the `paginatorMiddleware` to enable `redux-paginator`
 
-In order to `redux-paginator` to work properly, you need to add the `paginatorMiddleware` or if your prefer working with [`redux-saga`](https://github.com/yelouafi/redux-saga) you can use the `requestPageWatcher` instead. Both of them are available at the root :
+In order to `redux-paginator` to work properly, you need to add the `paginatorMiddleware`. Both of them are available at the root :
 ```
 import { paginatorMiddleware } from 'redux-paginator'
-// or
-import { requestPageWatcher } from 'redux-paginator'
+
 ```
 
 
